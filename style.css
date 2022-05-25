@@ -1,0 +1,46 @@
+body{
+    background-color: aqua;
+    
+    padding: 40px;
+    
+    
+
+}
+
+header{
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    margin: 0px ;
+    background-color: aqua;
+}
+
+.container{background-color: white;
+    text-align: center;
+    
+    padding: 50px;
+    margin: 20px;
+    border-radius: 5px;
+    border: 20px solid aqua;
+    
+
+    
+    
+    
+
+
+
+}
+
+
+.form-group{
+    font-family: sans-serif;
+    padding: 5px;
+    font-size: large;
+
+}
+ input{
+    gap: 20px;
+}
+
+

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css   ">
+    <title>Survey Form</title>
+
+</head>
+<body>
+    <header> 
+        <h1>Survey Form</h1>
+
+        
+    </header>
+    <div class="container">
+        <p>Let us know how you can improve freeCodeCamp</p>
+        <form action="form.php" method="post">
+            <div class="form-group">
+                <label for="Name">Name</label>
+                <input type="text" id="name" name="name">
+    
+            </div>
+    
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email">
+    
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" id="age" name="Age">
+    
+            </div>
+
+    
+            
+            <div class="form-group">
+                
+                <label for="occupation">What option best describes your current role?</label>
+                <select name="occupation" >
+                    <option value="student">student</option>
+                    <option value="chef">chef</option>
+                    <option value="driver">driver</option>
+
+
+
+                </select>
+                
+                
+                 <div>
+                     <div class="form-group">
+                        <label for="how likely is that you would recommend freeCodeCamp to a friend?">how likely is that you would recommend freeCodeCamp to a friend?</label>
+                        <label class="checkbox"></label>
+                        <input type="checkbox" name="definitely" id="definitely">
+                        <label class="form-group">Definitely</label>
+
+                        <label class="checkbox"></label>
+                        <input type="checkbox" name="maybe" id="maybe">
+                        <label class="form-group">maybe</label>
+
+                        <label class="checkbox"></label>
+                        <input type="checkbox" name="unlikely" id="unlikely">
+                        <label class="form-group">unlikely   </label>
+
+
+
+
+                       
+                     </div>
+                     <div class="form-group">
+                        <label for="hobbies">What do you like most in fcc?</label>
+                        <select name="select an option" >
+                            <option value="student">student</option>
+                            <option value="chef">chef</option>
+                            <option value="driver">driver</option>
+        
+                         
+                     </div>
+
+                
+                </div>
+
+ 
+
+                
+               
+    
+                
+            </div>
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>
